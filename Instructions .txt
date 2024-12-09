@@ -1,0 +1,18 @@
+﻿Instructions to Run EduPal
+1. Navigate to the File:
+   * Open the project in Eclipse
+   * Go to loginPage.java.
+2. Run the File:
+   * Right-click on loginPage.java.
+   * Select Run As -> Run Configurations.
+3. Set Up Run Configurations:
+   * In the Run Configurations window, go to the Arguments tab.
+In the VM arguments section, add the following:
+        --add-modules javafx.controls,javafx.fxml
+(Uncheck any checkboxes beneath the VM arguments section)
+4. Execute the Program:
+   * Click Run to start the application.
+5. Login Credentials:
+   * Use the following credentials to log in:
+      * Username: student
+      * Password: password123

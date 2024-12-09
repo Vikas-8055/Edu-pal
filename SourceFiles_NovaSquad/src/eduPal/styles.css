@@ -1,0 +1,172 @@
+/* Global Styling */
+.root {
+    -fx-font-family: 'Arial', sans-serif;
+    -fx-background-color: linear-gradient(to bottom, #ffffff, #e3f2fd);
+    -fx-text-fill: #333;
+}
+
+/* Header Label Styling */
+.label-header {
+    -fx-font-size: 24px;
+    -fx-font-weight: bold;
+    -fx-text-fill: #1565c0;
+    -fx-padding: 10px;
+    -fx-text-alignment: center;
+}
+
+/* Input Field Styling */
+.text-field {
+    -fx-padding: 10px;
+    -fx-border-color: #64b5f6;
+    -fx-border-radius: 5;
+    -fx-background-radius: 5;
+    -fx-background-color: #ffffff;
+    -fx-font-size: 14px;
+    -fx-text-fill: #333;
+}
+
+.text-field:focused {
+    -fx-border-color: #42a5f5;
+    -fx-background-color: #e3f2fd;
+}
+
+/* Button Styling */
+.button {
+    -fx-background-color: linear-gradient(to bottom, #42a5f5, #1565c0);
+    -fx-text-fill: white;
+    -fx-font-size: 16px;
+    -fx-font-weight: bold;
+    -fx-padding: 10px 20px;
+    -fx-border-radius: 5;
+    -fx-background-radius: 5;
+    -fx-border-color: #1565c0;
+}
+
+.button:hover {
+    -fx-background-color: linear-gradient(to bottom, #64b5f6, #1e88e5);
+}
+
+.button:pressed {
+    -fx-background-color: #1e88e5;
+}
+
+/* GridPane Styling */
+.grid-pane {
+    -fx-hgap: 10px;
+    -fx-vgap: 10px;
+    -fx-padding: 20px;
+}
+
+/* VBox Layout Styling */
+.vbox {
+    -fx-spacing: 20px;
+    -fx-padding: 20px;
+    -fx-alignment: center;
+}
+
+/* HBox Layout Styling */
+.hbox {
+    -fx-spacing: 10px;
+    -fx-padding: 10px;
+    -fx-alignment: center;
+}
+
+/* ScrollPane Styling */
+.scroll-pane {
+    -fx-background-color: #f9f9f9;
+    -fx-padding: 10px;
+    -fx-border-color: #ccc;
+    -fx-border-radius: 5;
+}
+
+/* Chart Styling */
+.chart-title {
+    -fx-font-size: 16px;
+    -fx-font-weight: bold;
+    -fx-text-fill: #1565c0;
+}
+
+.pie-chart {
+    -fx-legend-side: bottom;
+    -fx-label-line-length: 10;
+}
+
+.bar-chart {
+    -fx-bar-fill: #42a5f5;
+}
+
+/* Dialog Styling */
+.dialog {
+    -fx-background-color: #ffffff;
+    -fx-padding: 20px;
+    -fx-border-color: #64b5f6;
+    -fx-border-width: 2px;
+    -fx-border-radius: 10px;
+    -fx-background-radius: 10px;
+}
+
+/* Labels */
+.label {
+    -fx-font-size: 14px;
+    -fx-text-fill: #333;
+}
+
+.label-bold {
+    -fx-font-size: 16px;
+    -fx-font-weight: bold;
+    -fx-text-fill: #1565c0;
+}
+
+/* Error and Success Messages */
+.label-error {
+    -fx-font-size: 14px;
+    -fx-text-fill: #ff0000;
+}
+
+.label-success {
+    -fx-font-size: 14px;
+    -fx-text-fill: #00a152;
+}
+
+/* Status Bar */
+.status-bar {
+    -fx-background-color: #e3f2fd;
+    -fx-padding: 10px;
+    -fx-font-size: 14px;
+    -fx-text-fill: #1565c0;
+    -fx-border-color: #64b5f6;
+    -fx-border-width: 1px 0 0 0;
+    -fx-border-style: solid;
+}
+
+/* Table Styling */
+.table-view {
+    -fx-background-color: #f9f9f9;
+    -fx-border-color: #ccc;
+    -fx-border-radius: 5;
+    -fx-font-size: 14px;
+}
+
+.table-header {
+    -fx-font-size: 16px;
+    -fx-font-weight: bold;
+    -fx-background-color: #64b5f6;
+    -fx-text-fill: white;
+}
+
+.table-row-cell {
+    -fx-padding: 10px;
+}
+
+.table-row-cell:selected {
+    -fx-background-color: #bbdefb;
+}
+
+/* Tooltip Styling */
+.tooltip {
+    -fx-background-color: #e3f2fd;
+    -fx-text-fill: #333;
+    -fx-border-color: #64b5f6;
+    -fx-border-radius: 5;
+    -fx-padding: 10px;
+}
